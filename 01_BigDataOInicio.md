@@ -26,7 +26,7 @@ Como podemos perceber, os dados ajudaram a direcionar a evolução da humanidade
 
 Proponho definirmos um marco para o Big Data, vamos usar a frase de Eric Shmidt da Google e apontar para o ano de 2003:
 
-!["Nova era Digital"](/images/novaEraDigital.png)<br/> - Nova Era Digital - Fonte: FIAP(2016).
+!["Nova era Digital"](/images/01_OInicio/novaEraDigital.png)<br/> - Nova Era Digital - Fonte: FIAP(2016).
 
 Definitivamente, estamos usando o adjetivo “BIG” para expressar o que realmente mudou de maneira significativa, que é a dimensão de volume de dados produzidos a partir de 2003 (um marco simbólico).
 
@@ -40,7 +40,7 @@ As empresas que direcionam a evolução das tecnologias e arquitetura de Big Dat
 
 O Gartner usou a abordagem “The Nexus of Forces” em 2013 para definir os pilares para a TI nesta nova era digital, como mostra a figura abaixo:
 
-!["The Nexus of Forces"](/images/nexusForce.png)<br/> - The Nexus of Forces - Fonte: FIAP/Gartner(2016).
+!["The Nexus of Forces"](/images/01_OInicio/nexusForce.png)<br/> - The Nexus of Forces - Fonte: FIAP/Gartner(2016).
 
 A nova TI deve ser estruturada nesses quatro pilares. A partir da definição do Gartner, praticamente todas as empresas tradicionais de tecnologia passaram a adotar esse modelo para definir seus pilares de soluções no mercado de TI.
 
@@ -48,7 +48,7 @@ Quando analisamos uma empresa nativa digital, compreendemos que ela já tem essa
 
 Apesar de ser um assunto que requer grande profundidade, vamos resumir uma primeira definição para Big Data.
 
-!["Novo mindset"](/images/newMindset.png)<br/> - Novo mindset - Fonte: FIAP(2017).
+!["Novo mindset"](/images/01_OInicio/newMindset.png)<br/> - Novo mindset - Fonte: FIAP(2017).
 
 Temos uma grande história de TI e vamos entender melhor essa transição, porém, para avançarmos, é necessário um ajuste no seu mapa mental. Durante anos, acumulamos aprendizado, mitos, pequenos vícios e tudo isso  ocupa um espaço no seu “cache” (memória), bloqueando a entrada de novas maneiras de inovar e resolver problemas. Quanto mais conseguirmos trabalhar essa mudança de mindset, mais fácil será o aprendizado sobre Big Data.
 
@@ -58,7 +58,7 @@ Estamos na quarta revolução industrial e na terceira geração computacional, 
 
 ## A Evolução
 
-!["Evolução da computação"](/images/evolucaoComputacao.png)<br/> - Evolução da computação - Fonte: FIAP(2016).
+!["Evolução da computação"](/images/01_OInicio/evolucaoComputacao.png)<br/> - Evolução da computação - Fonte: FIAP(2016).
 
 * **Mainframe:** computação centralizada e monolítica de implementação relativamente simples. Poucas empresas têm acesso a computação, devido ao alto custo principalmente. Do ponto de vista de desenvolvimento, os programadores são orientados a eficiência e sabem da importância ($) de otimizar o uso de recursos.
 
@@ -78,7 +78,7 @@ A nova arquitetura em nuvem integra os conceitos de dados operacionais e analít
 
 A seguir, mais um exemplo de evolução baseado em demandas, volumes e complexidade de dados.
 
-!["Volume e complexidade"](/images/volumeEComplexidade.svg)<br/> - Volume e complexidade - Fonte: FIAP(2016).
+!["Volume e complexidade"](/images/01_OInicio/volumeEComplexidade.svg)<br/> - Volume e complexidade - Fonte: FIAP(2016).
 
 ---
 
@@ -86,7 +86,7 @@ A seguir, mais um exemplo de evolução baseado em demandas, volumes e complexid
 
 O conceito mais usado para definir os fundamentos de Big Data é baseado em 3Vs. Não ignore ou questione os 3Vs neste momento, pois requer uma análise mais aprofundada para entendermos algumas questões importantes, as quais serão desenvolvidas ao longo dos próximos capítulos.
 
-!["Os 3Vs de Big Data"](/images/3vsBigData.png)<br/> - Os 3Vs de Big Data - Fonte: FIAP(2016).
+!["Os 3Vs de Big Data"](/images/01_OInicio/3vsBigData.png)<br/> - Os 3Vs de Big Data - Fonte: FIAP(2016).
 
 ---
 
@@ -94,7 +94,7 @@ O conceito mais usado para definir os fundamentos de Big Data é baseado em 3Vs.
 
 Volume é um conceito relativo, o que é Big Data hoje pode não ser Big Data amanhã. Portanto, precisamos entender essa questão-chave sobre o principal fundamento de Big Data.
 
-!["Volume relativo"](/images/volumeRelativo.png)<br/> - Volume relativo - Fonte: FIAP(2016).
+!["Volume relativo"](/images/01_OInicio/volumeRelativo.png)<br/> - Volume relativo - Fonte: FIAP(2016).
 
 Vamos definir um cenário inicial para identificar qual volume é considerado um Big Data e, nessa definição, utilizaremos o volume em petabytes (que equivale a 1.000 terabytes).
 
@@ -120,7 +120,7 @@ Uma frase famosa foi usada no Fórum Econômico Mundial de 2011: “Dados
 
     Conforme mencionado no livro Big Data, de Cezar Taurion: “O que o microscópio foi para a medicina e a sociedade, o Big Data também será para as empresas e a própria sociedade.”
 
-!["Volume de dados Atual"](/images/volumeDadosAtual.png)<br/> - Volume de dados Atual - Fonte: FIAP(2017).
+!["Volume de dados Atual"](/images/01_OInicio/volumeDadosAtual.png)<br/> - Volume de dados Atual - Fonte: FIAP(2017).
 
 O microscópio é um instrumento óptico com capacidade de ampliar imagens de objetos muito pequenos graças ao seu poder de resolução. E o que isso tem a ver com o volume de Big Data?
 
@@ -134,7 +134,7 @@ Como vimos nos fundamentos da computação baseada em nuvem, a TI não atende o 
 
 Vamos analisar o modelo clássico da arquitetura analítica.
 
-!["Arquitetura analítica tradicional."](/images/arquiteturaAnaliticaTradicional.png)<br/> - Arquitetura analítica tradicional. - Fonte: FIAP(2017).
+!["Arquitetura analítica tradicional."](/images/01_OInicio/arquiteturaAnaliticaTradicional.png)<br/> - Arquitetura analítica tradicional. - Fonte: FIAP(2017).
 
 Podemos mencionar sobre os dois principais aspectos relativos à
 velocidade:
@@ -160,7 +160,7 @@ Para um exemplo hipotético, considere o cenário abaixo, com o volume de 200 TB
 
 Qual é o tempo estimado para a análise dos 200 TB de dados?
 
-!["Exemplo de velocidade – Google"](/images/exemploVelocidadeGoogle.png)<br/> - Exemplo de velocidade – Google. - Fonte: FIAP(2017).
+!["Exemplo de velocidade – Google"](/images/01_OInicio/exemploVelocidadeGoogle.png)<br/> - Exemplo de velocidade – Google. - Fonte: FIAP(2017).
 
 O que deverá ser realizado para otimizar a latência de 46 dias (tempo de
 processamento)?
@@ -193,7 +193,7 @@ Conforme vimos anteriormente, a Web 2.0 foi um grande milestone (marco) para ava
 
 O infográfico abaixo apresenta uma visualização clara de como estamos produzindo informações com mais volume, velocidade e variedade.
 
-!["Dados produzidos a cada 60 segundos"](/images/dadosProduzidosAcada60s.png)<br/> - Dados produzidos a cada 60 segundos - Fonte: FIAP(2017).
+!["Dados produzidos a cada 60 segundos"](/images/01_OInicio/dadosProduzidosAcada60s.png)<br/> - Dados produzidos a cada 60 segundos - Fonte: FIAP(2017).
 
 Para facilitar essa definição conceitual de variedade, vamos considerar que os dados estruturados são aqueles submetidos a processos de modelagens com o objetivo de normalizar e/ou definir um esquema (tabelas, colunas, data type, constraints) mais rígido, basicamente os dados que armazenamos em um SGBDR (Sistema Gerenciador de Banco de Dados Relacional. De maneira simples, todo o restante são dados não estruturados.
 
