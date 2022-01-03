@@ -244,3 +244,58 @@ Em 2008, DJ Patil e Jeff Hammerbacher usaram o termo "Data Scientist" (Cientista
 Abaixo, a Figura 5.18 mostra um diagrama que representa uma estrutura organizacional genérica e prioriza estratégia de dados e no Quadro 5.1 os cargos em BigData.
 
 !["Estrutura Organizacional Genérica"](/images/05_EcossistemaProfissoesEmBigData/estruturaOrganizacional.png)<br/> - Estrutura Organizacional Genérica - Fonte: Banco de imagens Shutterstock (2017).
+
+---
+
+## Glossário
+
+| Sigla | Descrição |
+|--|--|
+| CDO| A TI está sufocada com as demandas de infraestrutura, desenvolvimento e projetos que consomem seus valiosos recursos de tempo e dinheiro. Isso impossibilita o investimento adequado nos dados. Tratar dados como ativo requer um foco maior e uma estratégia bem definida. A função do CDO (Chief Data Officer) é desenvolver o planejamento adequado da estratégia de dados, alinhado aos propósitos corporativos e garantir a visão executiva necessária para engajar as iniciativas de toda a empresa.|
+| Cientista de Dados| “A profissão mais sexy do século XXI” esta frase foi usada por Hal Varian, economista do Google (2012) para definir o potencial deste profissional. Todas as empresas estão atrás dos cientistas de dados. São especialistas analíticos que possuem habilidades para resolver problemas de alta complexidade, alguns skills são essenciais para este perfil profissional. **Quantitativo:** deve ter uma base sólida de conhecimentos em matemática e estatística. **Desenvolvimento:** necessário conhecimento em ciências da computação (no mínimo programação) para desenvolver algoritmos e propor soluções para desbloquear o valor dos dados. As linguagens R e Python, por exemplo, são ferramentas indispensáveis para os cientistas de dados.|
+| Governança de Dados| Os profissionais responsáveis em garantir a governança dos dados estão contidos na estrutura da TI atual e serão peças-chave para a estratégia de Big Data nas empresas. Abaixo, algumas funções para garantir melhor governança: **Administrador de dados:** seu trabalho se torna mais abrangente e vai além do database relacional. Com ajuda do desenvolvedor e do cientista de dados, terá um grande desafio no controle dos metadados e estruturas para as novas semânticas; **Curador de dados:** Responsável em manter os índices de qualidade, veracidade e confiabilidade dos dados aceitáveis. Trabalhando com dados não estruturados e um time-to-market agressivo será seu grande desafio.|
+| CIO| O CIO já tem muitos problemas com a TI tradicional e não disporá de tempo e orçamento para investir e priorizar a estratégia e evolução de Big Data. Porém, para muitas empresas, não será possível iniciar uma mudança organizacional com mais um cargo executivo (CDO), e o CIO deverá assumir a função de preparar a empresa para este novo modelo de gestão baseada em Data Driven. Isso possibilitará a aproximação do CIO da estratégia de negócios e a TI passará a assumir um papel importante como agente de inovação da empresa.|
+| Arquitetura de TI| Os arquitetos de tecnologia/infraestrutura, dados e aplicações responsáveis pelo roadmap da TI, serão cada vez mais exigidos. A arquitetura de soluções para suportar um projeto de Big Data envolve muitos componentes e a tecnologia avança em ritmo acelerado. A estratégia dos dados corporativos deverá ser definida com apoio do time de Arquitetura de TI, alinhado com os casos de usos das empresas.|
+| Desenvolvimento| Big Data demanda muito desenvolvimento e, normalmente, este profissional também pode ser enquadrado como engenheiro de dados. Técnicas de computação com grandes volumes são implementadas com o uso de frameworks de processamento paralelo massivo, como o Map Reduce, e exigem conhecimentos de métodos de otimização e distribuição dos dados. Os ecossistemas mais comuns de Big Data são implementados em Java e esta, sem dúvida, é a linguagem-padrão, porém linguagens como Python e Scala estão em ascensão com a evolução da chamada segunda geração de Big Data. Os desenvolvedores de Big Data atuam desde o processo de carga com a ingestão de dados nos clusters, transformação, enriquecimento, qualidade e análises. Projetos e Big Data demandam fabricas de softwares com muitos profissionais de desenvolvimento e, geralmente é o maior número de pessoas para implementação e evolução de Big Data.|
+| Administração de TI| Plataformas de Big Data não são de simples administração, e requerem habilidades que serão incorporadas por profissionais da TI: **DBA:** Com o grande conhecimento em administração de banco de dados, estes profissionais são importantes para a evolução de Big Data, pois conhecem muito de dados e soluções de gerenciamento que independentemente da estrutura dos dados e arquitetura serão base para as soluções de Big Data. **Infraestrutura:** Soluções de Big Data demandam grandes clusters (plataformas) de TI, o gerenciamento de sistema operacional, network, capacidade de armazenamento/ processamento e são responsabilidades dos especialistas de infraestrutura que devem se preparar para suportar este grande “elefante”.|
+| BI/Analytics| Os profissionais de BI tradicional são peças fundamentais para implementar um projeto de Big Data, afinal, eles possuem um histórico de como os dados são coletados, quais são as regras de transformação e necessidades de análises que não são efetivamente atendidas no modelo atual. Estes profissionais serão beneficiados com a adoção da nova plataforma e devem participar ativamente na construção de Big Data. É importante ressaltar a necessidade da mudança de mindset para os especialistas em BI, muitos projetos vão “por água a baixo”, quando tentamos usar modelos e processos tradicionais de BI em uma plataforma de Big Data.|
+| Estatísticos/Matemáticos| Poucas empresas demandam mão de obra qualificada em estatística e matemática. Raramente uma empresa abre uma oportunidade com o requisito de formação “mestrado em matemática”. Durante muitos anos estes profissionais permaneceram mais próximo do lado acadêmico. Empresas financeiras contratam matemáticos e estatísticos com maior frequência, para desenvolver justamente uma análise mais precisa de mercado. Com a possibilidade de armazenar grandes volumes de dados, as empresas irão demandar profissionais quantitativos para apoiar os especialistas de negócios em análises complexas. Estes profissionais são grandes candidatos a evoluírem a carreira como cientista de dados, para isso devem aprender a programar em linguagens como Python, R, Scala e Java.|
+| Especialistas de Negócios| Profissionais que atuam nas áreas de negócio da empresa (ex.: Marketing, Vendas, Gestão de Riscos etc.). À medida que as empresas ganham maturidade nos processos guiados por dados, muitos profissionais de negócio, principalmente funções operacionais, podem perder espaço. Imagine um sistema de recomendações baseado em aprendizado de máquina (machine learning), que alavanca vendas com abordagem precisa de marketing, eliminando custos com campanhas e processos burocráticos de CRM convencionais. |Os especialistas de negócios deverão ser os maiores aliados da TI, na identificação dos use cases para a evolução dos projetos de Big Data. Afinal, ninguém conhece melhor as oportunidade e necessidades da empresa que eles.| 
+
+---
+
+## Referências
+
+BARTON, Dominic; COURT, David. Making Advanced Analytics Work for You. 2012. Disponível em: <https://hbr.org/2012/10/making-advanced-analytics-work-for-you>. Acesso em: 2 dez. 2015.
+
+BASSO, Guilherme Mastrichi. Terceirização e o mundo globalizado: o
+encadeamento produtivo e a complementaridade de serviços como potencializadores da formação de contratos. s/d. Disponível em: https://juslaboris.tst.jus.br/handle/1939/5388. Acesso em: 9 out. 2014.
+
+DAVENPORT, Thomas H; PATIL, D.J. Data Scientist: The sexiest job of the 21 st century. Harvard Business Review. Publicado em: Out. 2012 Disponível em: https://hbr.org/2012/10/data-scientist-the-sexiest-job-of-the-21st-century. Acesso em: 8 dez. 2015.
+
+DIXON, James. Blog “Union of the State – A Data Lake Use Case. Disponível em <https://jamesdixon.wordpress.com/>. Acesso em: 19 abr. 2017.
+
+GENTLEMAN, Robert; IHAKA, Ross. R: A language for data analysis and graphics. Americam Statistical Association, Instititute of Mathemathical Statistics and Interface Foundations of North America. Journal of Computational and Graphical Statistics. Volume 5, number 3, pages 299-314. Disponível em: http://biostat.mc.vanderbilt.edu/wiki/pub/Main/JeffreyHorner/JCGSR.pdf. Acesso em: 19 abr. 2017.
+
+INMON, William. H. Building the data warehouse. Wiley: New York, 1995.
+
+ISMAIL, Salim; MALONE, Michael S.; GESST, Yuri van. DIAMANDIS, Peter H. Exponential Organizations. Diversions Books, 2014.
+
+KIMBALL, Ralph; ROSS, Margy. DATA WAREHOUSE TOOLKIT. 3 ed. Editora
+John Wiley & Sons, Inc. Indianapolis, 2013.
+
+MARZ, Nathan; WARREN, James. Big Data - Principles and best practices of scalable realtime data systems. Publicado em : 27 abr. 2007. Disponível em: <http://projecteuclid.org/download/pdf_1/euclid.aoms/1177704711>Acesso em: 16 jan. 2015.
+
+______. Lambda Architecture. Disponível em: <http://lambda-architecture.net/>. Acesso em: 9 out. 2014.
+
+TECHBLOG. Netflix. Disponível em: <http://techblog.netflix.com/2011/11/benchmarking-cassandra-scalability-on.html>. Acesso em 20/04/2017.
+
+MITCHELL, Tom. Departamento de Machine Learning. s/d. Disponível em: <http://www.ml.cmu.edu/>. Acesso em: 16 jan. 2015.
+
+NIXON, James. Union of the State - A Data Lake Use Case. Publicado em 22 jan.2015. Disponível em: http://www.pentaho.com/blog/2015/01/22/union-of-the-state-a-data-lake-use-case. Acesso em: 8 dez. 2015.
+
+PAULUCCI, Anderson. Data Lake - Uma nova abordagem para o DW. Publicado em 28 de janeiro de 2017. Disponível em: https://pt.linkedin.com/pulse/data-lake-uma-nova-abordagem-para-o-dw-anderson-paulucci.
+
+SATHI, Arvind. Big Data Analytics. IBM Corporation: MC Press Online, 2012.
+
+THE R FOUNDATION. What is R? Disponível em: https://www.r-project.org/ Acesso em: 8 dez. 2015.
