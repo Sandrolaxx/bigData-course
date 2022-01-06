@@ -110,3 +110,43 @@ A partir deste, vários conceitos atuais foram criados, como, por exemplo, Lean 
 A abordagem de governança de dados tradicionais requer grande esforço e muito trabalho, mas pode não representar resultados satisfatórios a longo prazo. A governança ágil/enxuta, por outro lado, está focada em capacitar as pessoas e motivá-las a fazer as coisas certas.
 
 O especialista Scott Ambler, do Instituto Agile Data, aponta alguns passos importantes para um modelo ágil de governança de dados. Destaco abaixo os cinco principais:
+
+|  |  |
+|--|--|
+| Ativos Corporativos Valorizados| As orientações (como convenções de design de banco de dados, diretrizes de estilo de modelagem, convenções de nomenclatura de dados e diretrizes de design de relatório), definições de metadados e ativos reutilizáveis, como estruturas e componentes, serão adotadas caso se considere que agregam valor aos desenvolvedores. Devemos torná-las tão fáceis quanto possível para que os desenvolvedores as utilizem e, o mais importante, aproveitem sua infraestrutura de TI corporativa. Quando os padrões de dados são sensíveis, fáceis de entender e de fácil acesso, há uma chance significativamente maior de que as pessoas realmente seguirão os padrões na prática. Se forçarmos as pessoas a se conformarem com os padrões burocráticos, isso pode ser muito oneroso para o processo, então reduz a chance de que eles realmente o façam .|
+| Incluir profissionais de dados como participantes ativos em equipes de desenvolvimento| Quando o grupo DM (Data Management) é externo às equipes de projeto, pode promover uma mentalidade de “eles contra nós” dentro de uma organização de TI. Não é necessário ter um grupo externo para executar atividades de governança de dados, em vez disso, profissionais de dados individuais podem atuar com responsabilidades de gestão de dados em equipes de desenvolvimento de forma colaborativa e oportuna. Este é um dos conceitos fundamentais do método Agile Data.|
+| Educar os desenvolvedores| Os desenvolvedores precisam entender por que seus esforços de MDM (Master Data Management) são importantes, quais são os benefícios e como trabalhar em conjunto com sua equipe de DM. Quando eles sabem por que algo precisa ser feito, e como fazê-lo de forma eficaz, as chances de que eles realmente façam isso são muito maiores.|
+| Pipeline do Projeto guiado por Negócios| Devemos nos preocupar em que as atividades de TI com a gestão de dados estejam alinhadas com os objetivos de negócio. Infelizmente, diversas estratégias tradicionais de governança de dados muitas vezes parecem refletir as prioridades dos burocratas de dados, não as prioridades do negócio, resultando em repositórios de dados, com diversas barreiras e dados subutilizados.|
+| Conformidade integrada| É melhor construir a conformidade em seus processos do dia a dia, ao invés de ter um processo de conformidade separado que muitas vezes resulta em sobrecarga desnecessária. A automação é importante. Por exemplo, ao invés de realizar revisões para garantir que as equipes de desenvolvimento sigam as convenções de dados corporativos, um esforço demorado e caro, por que não executar uma ferramenta de análise de código estático sobre os esquemas de banco de dados em uma base regular, para garantir que as convenções de nomenclatura de dados sejam seguidas?|
+
+Big Data começou como uma solução de arquitetura para aumentar volumes e variedade dos dados, e está se tornando um problema econômico para as organizações que já têm mais dados do que podem gerenciar e estão lutando com o custo e a complexidade de manter escalabilidade para o gerenciamento. Governança ágil é saber quando e como gastar dinheiro em dados. O que acontece se você limpar e cozinhar um peixe e após a primeira mordida perceber que ele tem um gosto ruim? Big Data são cargas de caminhões de peixes sendo despejados no Data Lake todos os dias, como encontrar rapidamente os melhores peixes para degustação?
+
+A IBM publicou um paper intitulado “The IBM Agile Information Governance Process (2014) ” para abordar a necessidade de uma metodologia ágil para a governança de dados. Propõe uma abordagem alternativa sobre como entregar as iniciativas de Big Data com projetos-piloto, mas ainda ser capaz de abordar os principais problemas de governança.
+
+!["IBM Agile Information Governance Process"](/images/06_GovernancaDados/IBMAgileProcess.png)<br/> - IBM Agile Information Governance Process - Fonte: <https://www.flickr.com/photos/29986804@N08/10396735315>.
+
+O IBM Agile Information Governance Process consiste em seis etapas e três fases distintas. Na fase Plano (Plan), as equipes de governança de dados definem o problema do negócio, obtêm patrocínio executivo, alinham com as equipes e entendem o risco e o valor dos dados. Na fase Ato (Act), as organizações implementam um ou mais projetos baseados em casos de uso comum. Finalmente, na fase Avalia (Assess), as equipes de governança de dados medem os resultados.
+
+!["Analogia a loop contínuo"](/images/06_GovernancaDados/loopContinuo.png)<br/> - Analogia a loop contínuo - Fonte: Banco de imagens Shutterstock(2017).
+
+O IBM Agile Information Governance Process é construído como um loop contínuo. À medida que as equipes de governança de dados medem resultados em um projeto, elas começam de novo definindo o problema de negócios que pode gerar projetos adicionais.
+
+Uma notável diferença entre a governança da velha escola e a governança ágil é a suposição de que os projetos irão entrar e começar a usar os dados sem necessariamente se preocupar com qualidade e consistência. Como afirma o white paper:
+
+* Os dados podem ser carregados como estão porque os elementos de dados críticos e as relações podem não ser totalmente compreendidos.
+
+* Os dados podem ser semiestruturados ou não estruturados e sujeitos a uma exploração adicional, portanto, os elementos de dados críticos podem mudar iterativamente.
+
+* Os Stewards podem gerenciar apenas uma porcentagem menor de dados, devido a altos volumes e/ou velocidade.
+
+Na “Economia baseada em Dados”, eventualmente temos que tomar atalhos. Governança de dados ágil não é apenas sobre os atalhos ou chegar a uma resposta mais rapidamente, trata-se do padrão de governança certo para cada situação. Às vezes, as técnicas de Big Data podem ser usadas para resolver problemas de governança.
+
+---
+
+## Rerefências
+
+Agile Data. Agile Data Techniques. Disponível em: <http://agiledata.org>. Acesso em: nov. 2016.
+
+DAMA International Guide to Data Management Body of Knowledge (DAMA DMBOK ® ). Body of Knoledge. Disponível em: <http://dama.org>. Acesso em: nov. 2016
+
+IBM Software. “The IBM Agile Information Governance Process”. Maio de 2014. Disponível em: http://www.cio.co.uk/cmsdata/whitepapers/3534176/governanace.pdf. Acesso em: abr.2017.
